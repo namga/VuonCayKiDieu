@@ -2,7 +2,7 @@
 
 **Thông điệp:** Mỗi điều con học được sẽ giúp khu vườn lớn lên.
 
-Bản MVP gồm Web/PWA và project Android Studio (WebView dùng chung giao diện và logic). App dùng tiếng Việt, lưu hồ sơ/tiến độ trên thiết bị, có 30 nhiệm vụ, 3 mức độ theo nhóm tuổi, giọng đọc tiếng Việt qua TTS của thiết bị, 20 cây, 10 sinh vật, 10 đồ trang trí, 5 truyện, phần thưởng không có mua vật phẩm hay chuỗi đăng nhập hằng ngày.
+Bản MVP gồm Web/PWA và project Android Studio (WebView dùng chung giao diện và logic). App dùng tiếng Việt, lưu hồ sơ/tiến độ trên thiết bị, có 48 nhiệm vụ với biến thể độ khó theo nhóm tuổi, giọng đọc tiếng Việt qua TTS của thiết bị, 30 cây, danh mục riêng cho 15 côn trùng, 15 động vật, 7 bạn đồng hành, 8 vùng đất trong bộ sưu tập và 20 đồ trang trí, phần thưởng không có mua vật phẩm hay chuỗi đăng nhập hằng ngày.
 
 ## Chạy Web/PWA
 
@@ -29,3 +29,11 @@ Bản MVP gồm Web/PWA và project Android Studio (WebView dùng chung giao di�
 - Giọng đọc dùng Vietnamese TTS nếu trình duyệt/thiết bị có giọng `vi-VN`; nếu không, cần cài giọng tiếng Việt trên thiết bị.
 - Nội dung nhiệm vụ là mẫu giáo dục khởi đầu, cần người lớn kiểm duyệt/điều chỉnh theo chương trình và từng độ tuổi trước khi phát hành rộng.
 - APK debug do workflow tạo ra không phải APK phát hành đã ký bằng khóa riêng. Trước khi phát hành lên cửa hàng, cần thiết lập signing key và quy trình bảo vệ secrets.
+
+
+## Quyền riêng tư, an toàn nội dung và xóa dữ liệu
+
+- Đọc `PRIVACY_POLICY.md` và `CONTENT_SAFETY_POLICY.md` trước khi phát hành. Đây là chính sách MVP; cần điền thông tin liên hệ nhà phát hành và rà soát pháp lý trước khi công bố.
+- Góc phụ huynh có **Xóa tiến độ (giữ cài đặt)** và **Xóa toàn bộ dữ liệu ứng dụng**. Dữ liệu hiện lưu trên thiết bị, không có tài khoản hoặc đồng bộ máy chủ.
+- Ứng dụng không yêu cầu quyền micro/camera/vị trí/danh bạ. TTS dùng giọng đọc hệ thống/trình duyệt.
+- Mã phụ huynh mặc định `1234` chỉ dùng thử nghiệm; đổi mã trước khi sử dụng. Mã chưa được mã hóa trong MVP.
