@@ -37,3 +37,9 @@ Bản MVP gồm Web/PWA và project Android Studio (WebView dùng chung giao di�
 - Góc phụ huynh có **Xóa tiến độ (giữ cài đặt)** và **Xóa toàn bộ dữ liệu ứng dụng**. Dữ liệu hiện lưu trên thiết bị, không có tài khoản hoặc đồng bộ máy chủ.
 - Ứng dụng không yêu cầu quyền micro/camera/vị trí/danh bạ. TTS dùng giọng đọc hệ thống/trình duyệt.
 - Mã phụ huynh mặc định `1234` chỉ dùng thử nghiệm; đổi mã trước khi sử dụng. Mã chưa được mã hóa trong MVP.
+
+
+## v3.2 Cloud Garden Art Pack
+- Added a cohesive custom SVG illustration pack for companion animals, cottage, tree, flower, pond, and cloud-island scenery.
+- SVG assets are in `web/assets/garden-art/` and mirrored into Android WebView assets.
+- These are lightweight local vector assets; no external network requests are needed to display them.
